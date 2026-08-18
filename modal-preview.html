@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Orxfield Contact Modal Preview</title>
+  <style>
+    :root{--wine:#5b0808;--gold:#f5b400;--cream:#f8f6f1;--ink:#171717;--muted:#6f6966}*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:28px;background:linear-gradient(120deg,#260303,#7a1010);font:15px Arial,sans-serif;color:var(--ink)}.modal{width:min(920px,100%);height:520px;display:grid;grid-template-columns:38% 62%;background:var(--cream);box-shadow:0 25px 70px rgba(0,0,0,.38);overflow:hidden}.photo{position:relative;overflow:hidden;background:var(--wine)}.photo img{width:100%;height:100%;object-fit:cover}.photo:after{content:"Reliable\Aenergy";white-space:pre;position:absolute;inset:auto 0 0;padding:34px 28px 26px;background:linear-gradient(transparent,rgba(53,3,3,.96));color:white;font:bold .74rem Arial;letter-spacing:.16em;line-height:1.45;text-transform:uppercase}.form{position:relative;padding:40px 44px;overflow:auto}.form:after{content:"";position:absolute;right:0;top:0;border-style:solid;border-width:0 110px 110px 0;border-color:transparent var(--gold) transparent transparent}.close{position:absolute;right:17px;top:14px;z-index:1;width:34px;height:34px;border:0;border-radius:50%;background:var(--wine);color:white;font-size:22px}.eyebrow{font-size:.68rem;color:var(--wine);font-weight:bold;letter-spacing:.15em;text-transform:uppercase}.eyebrow:before{content:"";display:inline-block;width:28px;height:3px;margin-right:9px;background:var(--gold);vertical-align:middle}h1{font:2.4rem Georgia,serif;margin:13px 0 7px;letter-spacing:-.045em}p{margin:0 0 18px;color:var(--muted)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}.wide{grid-column:1/-1}label{font-size:.67rem;font-weight:bold;color:var(--wine);letter-spacing:.06em;text-transform:uppercase}input,select,textarea{width:100%;margin-top:5px;padding:10px;border:1px solid #d8d1c9;background:white;font:13px Arial}textarea{height:65px;resize:none}.send{width:100%;margin-top:13px;padding:13px;border:0;background:var(--gold);font-size:.73rem;font-weight:bold;text-transform:uppercase;letter-spacing:.06em;color:var(--ink)}.note{font-size:.72rem;margin-top:10px;text-align:center}@media(max-width:640px){body{padding:0}.modal{height:100vh;min-height:650px;grid-template-columns:1fr;overflow:auto}.photo{height:180px}.form{padding:30px 24px}.grid{grid-template-columns:1fr}.wide{grid-column:auto}}
+  </style>
+</head>
+<body>
+  <section class="modal" aria-label="Contact form preview">
+    <div class="photo"><img src="images/contact-form1.png" alt="Orxfield energy operations"></div>
+    <div class="form"><button class="close" aria-label="Close preview">×</button><div class="eyebrow">Talk to Orxfield</div><h1>How can we help?</h1><p>Share a few details and our team will get back to you shortly.</p><form class="grid"><label>Full name<input type="text"></label><label>Phone number<input type="tel"></label><label class="wide">Email address<input type="email"></label><label class="wide">I'm interested in<select><option>Petroleum products</option></select></label><label class="wide">Message<textarea></textarea></label></form><button class="send">Send enquiry →</button><p class="note">Or call us directly on 0703 462 2875.</p></div>
+  </section>
+</body>
+</html>
